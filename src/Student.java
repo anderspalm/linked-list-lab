@@ -1,4 +1,3 @@
-package ListLab;
 
 import java.text.DecimalFormat;
 

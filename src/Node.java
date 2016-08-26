@@ -1,4 +1,3 @@
-package ListLab;
 
 public class Node<T> {
 	Node<T> next;
@@ -25,7 +24,8 @@ public class Node<T> {
 	    return this.next;
 	}
 	
-	public void setNext(Node<T> nextNode) {
+	public Node setNext(Node<T> nextNode) {
 	    this.next = nextNode;
+		return nextNode;
 	}
 }
